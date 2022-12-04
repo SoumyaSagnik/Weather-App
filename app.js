@@ -33,24 +33,24 @@ search.addEventListener('click', () => {
 
             switch (json.weather[0].main) {
                 case 'Clear':
-                    image.src = 'https://github.com/SoumyaSagnik/Weather-App/blob/main/images/clear.png?raw=true';
+                    image.src = 'images/clear.png';
                     break;
                 case 'Rain':
-                    image.src = 'https://github.com/SoumyaSagnik/Weather-App/blob/main/images/rain.png?raw=true';
+                    image.src = 'images/rain.png';
                     break;
                 case 'Snow':
-                    image.src = 'https://github.com/SoumyaSagnik/Weather-App/blob/main/images/snow.png?raw=true';
+                    image.src = 'images/snow.png';
                     break;
                 case 'Clouds':
                 case 'Fog':
-                    image.src = 'https://github.com/SoumyaSagnik/Weather-App/blob/main/images/cloud.png?raw=true';
+                    image.src = 'images/cloud.png';
                     break;
                 case 'Haze':
                 case 'Mist':
-                    image.src = 'https://github.com/SoumyaSagnik/Weather-App/blob/main/images/mist.png?raw=true';
+                    image.src = 'images/mist.png';
                     break;
                 default:
-                    image.src = 'https://github.com/SoumyaSagnik/Weather-App/blob/main/images/mist.png?raw=true';
+                    image.src = 'images/mist.png';
             }
             container.style.height = '37.5rem';
 
